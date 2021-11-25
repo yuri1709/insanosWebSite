@@ -1,0 +1,45 @@
+.header{ /*o .header img so move a imagem,o header tambem esta fora do bloco 1*/
+    padding-top: 0;
+    margin-left:0;
+    }
+  
+  
+  ul {
+      list-style-type: none; /*tira os pontos da ul e li*/
+      margin:0;
+      padding:0;
+      overflow: hidden;
+      background-color:rgb(24, 24, 24);
+      border:2px solid blanchedalmond;
+      border-radius:0px 0px 0px 0px; /*deixa a borda redonda*/
+      max-width: 100%;
+      
+     
+      
+    }
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: orangered;
+      text-align: center;
+      padding: 10px 10px;
+      text-decoration: none;
+    }
+    
+    li a:hover{
+      background-color: orangered;
+      color: white;
+      font-size: 15px; /*efeito de zoom ao passar o mouse*/
+    }
+  
+    .footer{ 
+        color:yellow;
+        text-align:center;
+        clear: both; /*jogar o rodape no final do texto*/
+        
+        
+      }
+       

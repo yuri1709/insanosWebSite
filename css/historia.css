@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+
+  .insanoLogo2{
+    padding-top: 50px;/*insano esta fora do bloco1 porque faz parte do header*/
+    padding: center;
+ }
+  .bloco1{
+    width: 100%;
+    height: 0%;
+    margin-left: 10px;/*distanciamento do bloco da borda esquerda*/
+    
+  }
+  
+  h2 { /*Insanos M.C*/
+    color:blanchedalmond;
+    padding-top: 45px;
+    text-decoration: underline;
+    
+  }
+ 
+    .historia1{
+      color:whitesmoke;
+      float:center;
+    }
+    .historia2{
+      margin-top: 10px;/*distancia da historio2 do historia1*/
+      color:whitesmoke;
+      float:center;
+      
+    }
+  
+  
+  
+ 
+   

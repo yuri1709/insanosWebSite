@@ -1,59 +1,35 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
-}
-.bloco1{
-  width: 100%;
-  height: 0%;
-  margin-left: 10px;/*distanciamento do bloco da borda esquerda*/
-  
   
 }
-.header{ /*o .header img so move a imagem,o header tambem esta fora do bloco 1*/
-  padding-top: 0;
-  margin-left:0;
-  }
+
 .insanoLogo{
-  padding-top: 30px;/*insano esta fora do bloco1 porque faz parte do header*/
+  padding-top: 50px;/*insano esta fora do bloco1 porque faz parte do header*/
 }
+
 h2 { /*Insanos M.C*/
   color:blanchedalmond;
-  padding-top: 45px;
+  padding-top: 10px;
+  text-decoration: underline;
   
 }
-ul {
-    list-style-type: none; /*tira os pontos da ul e li*/
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    background-color:rgb(24, 24, 24);
-    border:2px solid blanchedalmond;
-    border-radius:0px 0px 0px 0px; /*deixa a borda redonda*/
-    max-width: 100%;
-    
-   
-    
-  }
-  li {
-    float: left;
-  }
+
+
+.bloco1{
   
-  li a {
-    display: block;
-    color: orangered;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-  }
+  width: 100%;
+  margin:0 auto;
+  height:0 auto;
+  margin-left: 20px;/*distanciamento do bloco da borda esquerda*/ 
   
-  li a:hover{
-    background-color: orangered;
-    color: white;
-    font-size: 15px; /*efeito de zoom ao passar o mouse*/
-  }
+}
+
+
 
   .historia1{
     color:whitesmoke;
+    float:left;
     
   }
   .historia2{
@@ -64,11 +40,7 @@ ul {
 /*--Container--*/
 .slide1{
   float:left;
-}
-
-.footer{
-  color:yellow;
-  margin-top: 30%;
+  margin-left: 100px;
   
 }
- 
+

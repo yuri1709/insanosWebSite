@@ -5,7 +5,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  margin-top: 20px; /*regula a altura*/
+  margin-top: 0 auto; /*regula a altura*/
   max-width: 600px;
   position: relative;
   margin: left;
@@ -98,3 +98,4 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
