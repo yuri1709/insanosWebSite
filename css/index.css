@@ -3,9 +3,11 @@ body{
   background-color: black;
   
 }
-
+.header{
+  background-image: url("img/xadrez.jpg");
+}
 .insanoLogo{
-  padding-top: 50px;/*insano esta fora do bloco1 porque faz parte do header*/
+  padding-top: 0px;/*insano esta fora do bloco1 porque faz parte do header*/
 }
 
 h2 { /*Insanos M.C*/

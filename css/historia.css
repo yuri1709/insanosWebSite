@@ -95,13 +95,8 @@ body{
       
     }
   
-   /* h2 {
-      color:blanchedalmond;
-      padding-top: 5px;
-      text-decoration: underline;
-      
-    }*/ 
    
+  /*Desginer Responsivo*/ 
     @media screen and (max-width:600px){
 
 /*esse img deixa a imagem responsiva*/

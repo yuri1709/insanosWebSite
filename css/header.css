@@ -1,8 +1,9 @@
 .header{ /*o .header img so move a imagem,o header tambem esta fora do bloco 1*/
     padding-top: 0;
     margin-left:0;
+    background-image: url("img/xadrez.jpg"); 
     }
-  
+
 
   ul {
       list-style-type: none; /*tira os pontos da ul e li*/
@@ -42,12 +43,13 @@
         color:yellow;
         text-align:center;
         clear: both; /*jogar o rodape no final do texto*/
+        background-color: gray;
         
         
       }
      
 
-      
+
       /*Celulares*/
       @media screen and (max-width:600px){
         
