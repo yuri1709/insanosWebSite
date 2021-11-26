@@ -1,38 +1,128 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color:black;
+    
   }
-
-  .insanoLogo2{
-    padding-top: 50px;/*insano esta fora do bloco1 porque faz parte do header*/
-    padding: center;
- }
+/*esse img deixa a imagem responsiva*/
+  .img{ 
+    max-width: 1080px;   /* Máximo da largura da imagem */
+    width: 74.5%;
+    max-height: 500px;  /* Máximo da altura da imagem */
+    min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+    background-size:100%;
+    background-repeat: no-repeat;
+    border: 3px solid #DEB887;
+    margin-left: -9%;
+}
+ 
   .bloco1{
+    padding-top: 30px;
     width: 100%;
-    height: 0%;
-    margin-left: 10px;/*distanciamento do bloco da borda esquerda*/
+    margin: 0 auto;
+    margin-left: 0 auto;/*distanciamento do bloco da borda esquerda*/ 
+    
+  }
+  .bloco1 h2{
+    color:wheat;
+    text-align: center;
+    
+    border:2px solid;
+    border-radius: 100px 100px 100px 100px;
+  }
+  #nossaHistoria{
+    width: 50%;
+    background-color: #DEB887;
+    color:black;
+    font-style: italic;
+    text-align: center;
+    border:2px solid;
+    border-radius: 50px 50px 0px 0px;
+    margin-left: 27%;
+
+  }
+/*miniblobo do historia 1 e historia 2 para centralizar */
+  #minibloco1{
+    float: center;
+    margin: 0 auto;
+    margin-left: 33%;
+  
+    
     
   }
   
-  h2 { /*Insanos M.C*/
-    color:blanchedalmond;
-    padding-top: 45px;
-    text-decoration: underline;
-    
-  }
- 
     .historia1{
-      color:whitesmoke;
+      margin-left: 0 auto;
+      color:black;
       float:center;
+      margin-left: 0 auto;
+      
+      
+    
+    }
+    .historia1 h2{
+      background-color:#DEB887;
+      color:black;
+      width: 50%;
+      border:2px solid;
+      border-radius: 0px 0px 0px 0px;
+      margin-left: 3%;
     }
     .historia2{
-      margin-top: 10px;/*distancia da historio2 do historia1*/
-      color:whitesmoke;
+      margin-left: 0em;
+      color:black;
       float:center;
+      margin-left: 0 auto;
+      
+      
+      
+    }
+    .historia2 h2{
+      background-color:#DEB887;
+      color:black;
+      width: 50%;
+      border:2px solid;
+      border-radius: 0px 0px 0px 0px;
+      margin-left: 3%;
+    }
+    .texto1{
+      background-image: url("img/papelvelho.jpg");
+      border:2px solid gray;
+      width:75%;
+      margin-left: -9%;
+      float: center;
+      
+      
       
     }
   
-  
-  
- 
+   /* h2 {
+      color:blanchedalmond;
+      padding-top: 5px;
+      text-decoration: underline;
+      
+    }*/ 
    
+    @media screen and (max-width:600px){
+
+/*esse img deixa a imagem responsiva*/
+.img{ 
+  max-width: 1080px;   /* Máximo da largura da imagem */
+  width: 100%;
+  max-height: 500px;  /* Máximo da altura da imagem */
+  min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+  background-size:100%;
+  background-repeat: no-repeat;
+  border: 3px solid #DEB887;
+  
+}
+.bloco1{
+  padding-top: 30px;
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 0 auto;/*distanciamento do bloco da borda esquerda*/ 
+  
+}
+
+    }
+      
+    

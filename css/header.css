@@ -3,17 +3,18 @@
     margin-left:0;
     }
   
-  
+
   ul {
       list-style-type: none; /*tira os pontos da ul e li*/
       margin:0;
       padding:0;
       overflow: hidden;
       background-color:rgb(24, 24, 24);
-      border:2px solid blanchedalmond;
+      border:2px solid rgb(250, 58, 0);
       border-radius:0px 0px 0px 0px; /*deixa a borda redonda*/
       max-width: 100%;
-      
+      width: 40%;
+      margin-left:32.5%; 
      
       
     }
@@ -25,11 +26,13 @@
       display: block;
       color: orangered;
       text-align: center;
-      padding: 10px 10px;
+      padding: 10px 45px;
+      padding-left: 60px;
       text-decoration: none;
     }
     
     li a:hover{
+      
       background-color: orangered;
       color: white;
       font-size: 15px; /*efeito de zoom ao passar o mouse*/
@@ -42,4 +45,32 @@
         
         
       }
-       
+     
+
+      
+      /*Celulares*/
+      @media screen and (max-width:600px){
+        
+        ul {
+          list-style-type: none; /*tira os pontos da ul e li*/
+          margin:0;
+          padding:0;
+          overflow: hidden;
+          background-color:rgb(24, 24, 24);
+          border:2px solid rgb(250, 58, 0);
+          border-radius:0px 0px 0px 0px; /*deixa a borda redonda*/
+          max-width: 100%;
+          width: 100%;
+           
+        }
+        
+        li a {
+          display: block;
+          color: orangered;
+          text-align: center;
+          padding: 10px 0px;
+          padding-left: 1.5em;
+          text-decoration: none;
+        }
+        
+      }
