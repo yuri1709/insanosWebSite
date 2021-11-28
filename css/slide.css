@@ -5,12 +5,13 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  margin-top: 0 auto; /*regula a altura*/
-  max-width: 600px;
-  position: relative;
-  margin: left;
-  border:2px solid orangered;
+  max-width: 720px;
+  position: absolute; /*troquei de relative para absolute e parou de bugar aquela imagem cinza*/
+  margin: auto;
+  padding-bottom:33px; /*borda cinza*/
   background-color: gray;
+  
+  border: 2px solid orangered;
 }
 
 /* Next & previous buttons */
@@ -44,9 +45,9 @@ img {vertical-align: middle;}
 .text {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 15px 12px;
+  padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 0 auto;
   width: 100%;
   text-align: center;
 }
@@ -63,10 +64,10 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 12px;
-  width: 12px;
+  height: 15px;
+  width: 15px;
   margin: 0 2px;
-  background-color: rgb(235, 76, 2);
+  background-color: rgb(245, 79, 2);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -98,4 +99,3 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
