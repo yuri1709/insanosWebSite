@@ -12,23 +12,17 @@ body{
     background-size:100%;
     background-repeat: no-repeat;
     border: 3px solid #DEB887;
-    margin-left: -9%;
+    margin-left: 13%;
+   
 }
  
-  .bloco1{
+  .blocoMor{
     padding-top: 30px;
     width: 100%;
-    margin: 0 auto;
-    margin-left: 0 auto;/*distanciamento do bloco da borda esquerda*/ 
-    
+    height: auto;
+    background-color: black;
   }
-  .bloco1 h2{
-    color:wheat;
-    text-align: center;
-    
-    border:2px solid;
-    border-radius: 100px 100px 100px 100px;
-  }
+  
   #nossaHistoria{
     width: 50%;
     background-color: khaki;
@@ -37,24 +31,34 @@ body{
     text-align: center;
     border:2px solid;
     border-radius: 50px 50px 0px 0px;
-    margin-left: 27%;
+    margin-left: 25%;
 
   }
 /*miniblobo do historia 1 e historia 2 para centralizar */
   #minibloco1{
-    float: center;
+    float: left;
+    width: 50%;
     margin: 0 auto;
-    margin-left: 33%;
-  
-    
-    
+    background-color: black;
+    margin-top: 0%; /*alinha o mini bloco 1 com o minibloco 2*/
+    margin-left:25%;
   }
   
+  #minibloco2{
+    float:left;
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+    margin-left:25%;
+   
+
+  }
     .historia1{
       margin-left: 0 auto;
       color:black;
-      float:center;
+      float:left;
       margin-left: 0 auto;
+      width: 100%;
       
       
     
@@ -65,31 +69,26 @@ body{
       width: 50%;
       border:2px solid;
       border-radius: 0px 0px 0px 0px;
-      margin-left: 3%;
+      margin-left: 25%;
+      text-align: center;
     }
+    
+    
     .historia2{
       margin-left: 0em;
       color:black;
-      float:center;
+      float:left;
       margin-left: 0 auto;
-      
-      
-      
+      width: 100%; 
     }
-    .historia2 h2{
-      background-color:khaki;
-      color:black;
-      width: 50%;
-      border:2px solid;
-      border-radius: 0px 0px 0px 0px;
-      margin-left: 3%;
-    }
+    
+
     .texto1{
       background-image: url("img/papelvelho.jpg");
       border:2px solid gray;
-      width:75%;
-      margin-left: -9%;
-      float: center;
+      width:90%;
+      margin-left: 5%;
+      float: left;
       
       
       
@@ -98,6 +97,17 @@ body{
    
   /*Desginer Responsivo*/ 
     @media screen and (max-width:600px){
+     
+      #nossaHistoria{
+        width: 95%;
+        background-color: khaki;
+        color:black;
+        font-style: italic;
+        text-align: center;
+        border:2px solid;
+        border-radius: 50px 50px 0px 0px;
+        margin-left: 3%;
+      }  
 
 /*esse img deixa a imagem responsiva*/
 .img{ 
@@ -108,6 +118,7 @@ body{
   background-size:100%;
   background-repeat: no-repeat;
   border: 3px solid #DEB887;
+  margin-left: 0%;
   
 }
 .bloco1{
@@ -117,7 +128,38 @@ body{
   margin-left: 0 auto;/*distanciamento do bloco da borda esquerda*/ 
   
 }
+/*miniblobo do historia 1 e historia 2 para centralizar */
+#minibloco1{
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  margin-top: 0%; /*alinha o mini bloco 1 com o minibloco 2*/
 
-    }
+}
+
+#minibloco2{
+  float:left;
+  width: 100%;
+  margin: 0 auto;
+  background-color:black;
+  
+}
+.texto1{
+  background-image: url("img/papelvelho.jpg");
+  border:2px solid gray;
+  width:100%;
+  margin-left: 0%;
+  float: left;
+}
+.historia1 h2{
+  background-color:khaki;
+  color:black;
+  width: 95%;
+  border:2px solid;
+  border-radius: 0px 0px 0px 0px;
+  margin-left: 3%;
+  text-align: center;
+}
       
-    
+    }   

@@ -10,3 +10,17 @@ body{
         margin: 0 auto;
         margin-left: 0 auto;/*distanciamento do bloco da borda esquerda*/ 
   }
+
+  #minibloco1{
+        width:50%;
+        height:auto;
+        background-color: aqua;
+        float:left;
+  }
+  #minibloco2{
+      width:50%;
+      height:auto;
+      background-color: red;
+      float:left;
+}
+  
