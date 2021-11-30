@@ -57,7 +57,7 @@ body{
 /*-------FIM-FORMAÇÃO------------------*/
 
 /*---------PARTE RESPONSIVA------------*/
-@media screen and (max-width:600px){
+@media screen and (max-width:1400px){
       #minibloco1{
             width:100%;
             height:auto;
