@@ -6,7 +6,7 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 720px;
-  position: absolute; /*troquei de relative para absolute e parou de bugar aquela imagem cinza*/
+  position: relative; /*troquei de relative para absolute e parou de bugar aquela imagem cinza*/
   margin: auto;
   padding-bottom:33px; /*borda cinza*/
   background-color: gray;

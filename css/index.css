@@ -20,13 +20,13 @@ body{
 
 }
 /*--Container--*/
-.farol{/*apagar,pois isto é somente um teste pra ver se da pra por uma imagem no lado da outra*/
+.moto{/*apagar,pois isto é somente um teste pra ver se da pra por uma imagem no lado da outra*/
   width: 30%;
   margin-top: 3em;
   float:left;
 }
-.slide1{
-  float:left;
+.slide1{ /*desativado*/
+  float:right;
   margin-top: 3em;
   margin-left: 2em;
   

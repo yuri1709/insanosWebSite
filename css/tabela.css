@@ -15,6 +15,7 @@ body{
         width:50%;
         height:auto;
         background-color: aqua;
+        padding-bottom:12%;
         float:left;
   }
   #minibloco2{
@@ -23,4 +24,51 @@ body{
       background-color: red;
       float:left;
 }
-  
+
+/*FORMAÇÃO NO COMBOIO*/
+.Formacao{
+      color:white;
+}
+
+.formacao1{
+      background-color: black;
+}
+.formacao1 h4{
+      color:black;
+      background-color:whitesmoke;
+      text-align: center;
+}
+.formacao2{
+      background-color: black;
+}
+.formacao2 h4{
+      color: black;
+      background-color:whitesmoke;
+      text-align: center;
+} 
+.formacao3{
+      background-color: black;
+}
+.formacao3 h4{
+      color: black;
+      background-color:whitesmoke;
+      text-align: center;
+}
+/*-------FIM-FORMAÇÃO------------------*/
+
+/*---------PARTE RESPONSIVA------------*/
+@media screen and (max-width:600px){
+      #minibloco1{
+            width:100%;
+            height:auto;
+            background-color: aqua;
+            float:left;
+      }
+
+      #minibloco2{
+            width:100%;
+            height:auto;
+            background-color: red;
+            float:left;
+   }    
+}

@@ -40,14 +40,37 @@
     }
   
     .footer{ 
-        color:yellow;
+        color:white;
         text-align:center;
         clear: both; /*jogar o rodape no final do texto*/
-        background-color: gray;
-        
-        
+        background-color: orangered; 
+        padding-bottom: 1.5%;
+        /*CONFIGURANDO-O-BLOCO-FOOTER*/
+        height:0 auto;
+        width: 100%;
+        float: left;
       }
-     
+      .footer1{
+        width: 33%;
+        float: left;
+        background-color: yellow;
+      }
+
+      .footer2{
+        width: 33%;
+        float: left;
+        text-align: center;
+        background-color: olivedrab
+      }
+      .footer3{
+        width: 33%;
+        float: left;
+        background-color: mediumspringgreen
+      }
+      .hd-logo{
+        width:33%;
+        margin-right: 50em;
+      }
 
 
       @media screen and (max-width:1600px){
