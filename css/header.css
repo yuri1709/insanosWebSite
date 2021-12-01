@@ -3,7 +3,10 @@
     margin-left:0;
     background-image: url("img/xadrez.jpg"); 
     }
-
+.nav{ /*mecher aquii*/
+  float:center;
+  background-color: aqua;
+}
 
   ul {
       list-style-type: none; /*tira os pontos da ul e li*/
@@ -38,42 +41,39 @@
       color: white;
       font-size: 15px; /*efeito de zoom ao passar o mouse*/
     }
-  
+  /*FOOTER*/
     .footer{ 
         color:white;
         text-align:center;
         clear: both; /*jogar o rodape no final do texto*/
-        background-color: orangered; 
-        padding-bottom: 1.5%;
+        background-image: linear-gradient(-50deg,rgb(252, 93, 30),rgb(255, 102, 0),rgb(252, 93, 30));
+        padding-bottom: 0 auto;
         /*CONFIGURANDO-O-BLOCO-FOOTER*/
         height:0 auto;
         width: 100%;
         float: left;
       }
       .footer1{
-        width: 33%;
+        width: 0%;
         float: left;
-        background-color: yellow;
       }
 
       .footer2{
-        width: 33%;
+        width: 100%;
         float: left;
         text-align: center;
-        background-color: olivedrab
       }
       .footer3{
-        width: 33.9%;
+        width: 0%;
         float: left;
-        background-color: mediumspringgreen
       }
       .hd-logo{
-        width:33%;
-        
+        float: left;
       }
+  /*FOOTER*/
 
-
-      @media screen and (max-width:1600px){
+      @media screen and (max-width:600px){
+      
         ul {
           list-style-type: none; /*tira os pontos da ul e li*/
           margin:0;
@@ -101,7 +101,7 @@
       
       
       /*Celulares*/
-      @media screen and (max-width:600px){
+      @media screen and (max-width:1750px){
         
         ul {
           list-style-type: none; /*tira os pontos da ul e li*/
@@ -113,6 +113,7 @@
           border-radius:0px 0px 0px 0px; /*deixa a borda redonda*/
           max-width: 100%;
           width: 100%;
+          margin-left: 0%;
            
         }
         
@@ -120,7 +121,7 @@
           display: block;
           color: orangered;
           text-align: center;
-          padding: 10px 0px;
+          padding: 10px 20px;
           padding-left: 1.5em;
           text-decoration: none;
         }

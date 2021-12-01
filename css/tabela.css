@@ -13,21 +13,35 @@ body{
 
   #minibloco1{
         width:50%;
-        height:auto;
-        background-color: aqua;
-        padding-bottom:12%;
+        height:0 auto;
+        background-color: gray;
         float:left;
   }
   #minibloco2{
       width:50%;
-      height:auto;
+      height:0 auto;
       background-color: red;
       float:left;
 }
+/*PATCHES*/
+.patches{
+      background-color: aqua;
+      width: 100%;
+      padding-top: 1px;
+      padding-bottom: 0.5px;
+      text-align: center;
+      color: white;
+}
+.tabela{
+      margin-top: 5%;
+}
+
+
 
 /*FORMAÇÃO NO COMBOIO*/
 .Formacao{
       color:white;
+      text-align: center;
 }
 
 .formacao1{

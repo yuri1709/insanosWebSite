@@ -10,28 +10,110 @@ body{
   padding-top: 0px;/*insano esta fora do bloco1 porque faz parte do header*/
 }
 
-
+#welcome{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: orangered;
+  border: 1px solid orangered;
+  border-radius: 0px 100px 0px 100px;
+  margin-bottom: 1em;
+}
 /*----------meio da pagina--------------*/
 .bloco1{
   padding-top: 30px;
   width: 100%;
-  margin: 0 auto;
-  margin-left: 0 auto;/*distanciamento do bloco da borda esquerda*/ 
+  height: 0 auto;
+}
+/*BLOCO-LEFT*/
+.bloco-left{
+margin-top: 6.5em;
+background-color:#565656;
+width: 25%;
+float:left;
+text-align: center;
+}
+.bloco-left h3{
+  color:black;
+  font-weight: bolder;
+  background-color: orangered;
+}
+.texto{
+color:white;
+text-align: left;
 
 }
-/*--Container--*/
-.moto{/*apagar,pois isto é somente um teste pra ver se da pra por uma imagem no lado da outra*/
-  width: 30%;
-  margin-top: 3em;
-  float:left;
+
+/*BLOCO-CENTER*/
+.bloco-center{
+width: 50%;
+float: left;
 }
-.slide1{ /*desativado*/
-  float:right;
-  margin-top: 3em;
-  margin-left: 2em;
+/*BLOCO-RIGHT*/
+.bloco-right{
+  margin-top: 6.5em;
+  background-color: #565656;
+  width: 25%;
+  float: left;
+  text-align: center;
+  color:white;
+}
+.bloco-right h3{
+  color:black;
+  font-weight: bolder;
+  background-color: orangered;
+}
+
+
+
+
+/*---------PARTE RESPONSIVA------------*/
+@media screen and (max-width:1100px){
+
+  .bloco1{
+  padding-top: 30px;
+  width: 100%;
+  height: 0 auto;
+  padding-bottom: 100%;
+}
+.bloco-left{
+background-color:#565656;
+width: 100%;
+float:left;
+text-align: left;
+margin-top: 0;
+margin-bottom: 3em;
+
+}
+.bloco-left h3{
+  color:black;
+  font-weight: bolder;
+  background-color: orangered;
+}
+.texto{
+color:white;
+text-align: left;
+
+}
+
+
+.bloco-center{
+width: 100%;
+float: left;
+}
+
+.bloco-right{
+  background-color: 565656;
+  width: 100%;
+  float: right;
+  text-align: center;
+  color:white;
+  margin-top: 2em;
+}
+.bloco-right h3{
+  color:black;
   
-  
 }
 
-
+}
   
