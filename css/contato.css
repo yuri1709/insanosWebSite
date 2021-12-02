@@ -1,3 +1,10 @@
+body{
+  background-color: gray;
+}
+h3{
+  text-align: center;
+  color: white;
+}
 /*janela modal é aquela janela que abre dentro do site*/
 .modal{
     position: fixed;
@@ -36,10 +43,10 @@
     text-align: center;
     line-height: 30px;
     margin-top: 5px;
-    background: #ff4545;
+    background: #000000cc;
     border-radius: 50%;
     font-size: 16px;
-    color: #8d0000;
+    color: whitesmoke;
   }
 
 

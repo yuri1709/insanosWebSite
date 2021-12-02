@@ -34,7 +34,6 @@ body{
     height: 100%;
     float:left;
    }
-   
 
 
 .row{
@@ -70,6 +69,9 @@ body{
 
 @media screen and (max-width:600px){
 
+    .row{
+        width: 100%;
+    }
     .column{
         width: 50%;
         margin: 0 auto;

@@ -19,7 +19,7 @@ height:500px;
 float:left;
 color:white;
 /*background-color: blue;*/
-background-color: black;
+background-color:rgba(0, 0, 0, 0.61);
 
 }
 .col2{
@@ -40,11 +40,28 @@ background-color: black;
     color: white;
     
 }
-
-.option{
-    background-color:black;
-   width: 400px;
+.FORMULARIO button{
+    color:orangered;
+    margin-left: 2em;
+    border:2px solid orangered;
+    border-radius: 10%;
+    width: 120px;
 }
+.limpar button{
+    margin-top:1em;
+    margin-bottom: 1em;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.enviar button{
+    margin-left: 1em;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+
+
+
+
 @media screen and (max-width:600px){
     .col0{
         width: 25%;
@@ -70,4 +87,23 @@ background-color: black;
         /*background-color: blue;*/
         background-color: black;
     }
+    .FORMULARIO button{
+    color:orangered;
+    margin-left: 3em;
+    border:2px solid orangered;
+    border-radius: 10%;
+    width: 120px;
+}
+.limpar button{
+    margin-top:1em;
+    margin-bottom: 1em;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+.enviar button{
+    margin-left: 1em;
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
 }
