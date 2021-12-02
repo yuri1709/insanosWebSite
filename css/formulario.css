@@ -1,0 +1,73 @@
+
+/*configurando para deixar uma embaixo do outro*/
+.row{
+width:100%;
+height:auto;
+
+}
+.FORMULARIO{
+    margin-left: 35%;
+}
+.col0{
+    width: 25%;
+    float:left;
+    background-color:orangered;
+}
+.col1{
+width:50%;
+height:500px;
+float:left;
+color:white;
+/*background-color: blue;*/
+background-color: black;
+
+}
+.col2{
+    width: 25%;
+    float: right;
+    background-color:orangered;
+}
+.container input{
+    width:300px;
+    height:25px;
+    border:2px solid orangered;
+    outline: none; /*pra não ficar com aquela caixa*/
+    padding-left:0px;
+    margin-bottom:10px;
+}
+.topo{
+    text-align: center;
+    color: white;
+    
+}
+
+.option{
+    background-color:black;
+   width: 400px;
+}
+@media screen and (max-width:600px){
+    .col0{
+        width: 25%;
+        float:left;
+        background-color:orangered;
+    }
+    .FORMULARIO{
+        margin-left: 0 auto;
+    }
+
+    .container input{
+        width:200px;
+        height:25px;
+        border:2px solid orangered;
+        outline: none; /*pra não ficar com aquela caixa*/
+        margin-bottom:10px;
+    }
+    .col1{
+        width:0%;
+        height:500px;
+        float:left;
+        color:white;
+        /*background-color: blue;*/
+        background-color: black;
+    }
+}

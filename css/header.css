@@ -3,9 +3,12 @@
     margin-left:0;
     background-image: url("img/xadrez.jpg"); 
     }
-.nav{ /*mecher aquii*/
+/*.nav{ mecher aquii
   float:center;
   background-color: aqua;
+}*/
+.mp3{
+  float: right;
 }
 
   ul {
@@ -83,7 +86,7 @@
           border:2px solid rgb(250, 58, 0);
           border-radius:0px 0px 0px 0px; /*deixa a borda redonda*/
           max-width: 30%;
-          width: 40%;
+          width: 50%;
           margin-left: 35%;
            
         }
@@ -122,7 +125,7 @@
           color: orangered;
           text-align: center;
           padding: 10px 20px;
-          padding-left: 1.5em;
+          padding-left: 0.8em;
           text-decoration: none;
         }
         

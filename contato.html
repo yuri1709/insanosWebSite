@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel= "stylesheet" href="css/contato.css">
+    <link rel= "stylesheet" href="css/formulario.css">
+    <link rel= "stylesheet" href= "css/header.css"
+
+    <title>Contato</title>
+   
+</head>
+<body>
+
+<!--class header-->
+<div class="header">
+    <!--Imagem da logo-->    
+ <img src="img/insanosLogo.jpg" class="insanoLogo">  <!--tem que jogar essa imagem pra aparece nas outras paginas-->
+      
+   <nav calls="nav"> 
+       <ul> 
+          <li><a href="index.html">Home</a></li>
+               <li><a href="historia.html">Sobre</a></li>
+                   <li><a href="midia.html">Mídia</a></li>
+                      <li><a href="tabela.html">Info</a></li> 
+                          <li><a href="contato.html#abrirModal">Contato</a></li> 
+      </ul> 
+   </nav>
+</div>
+
+
+<img src="img/indian1.jpg" width="100%">
+<!--MODAL-->
+<a href="#abrirModal">Abrir janela modal</a>
+
+<div id="abrirModal" class="modal">
+  <a href="#fechar" title="Fechar" class="fechar">
+      X
+  </a>
+  <body>
+	<header>
+		<div class="topo">Cadastro</div>
+	</header>
+	<section class="section">
+		<div class="container">
+					
+			<div class="row">
+                
+                                    <div class="col0"><h3></h3></div>
+            <!--==========col1============-->
+                <div class="col1">
+                    <div class="FORMULARIO">
+                        <form name="cadastro" method="POST"></br>						
+                            Nome:<br>
+                            <input  type="text" name="Nome" placeholder="Nome" /><br>						
+                            <!--Inserindo foto(Escolher arquivo)-->
+                            Foto 3x4: <br>
+                            <input type="file" name="foto" placeholder="Foto 3x4"/> <br>
+                
+                            <!--Lista de cidades-->
+                            Cidade:<br>
+                            <select> <!--select cria uma lista para o usuário fazer a seleção-->
+                                <option>Los Santos</option> <!--As opções são em <option>-->
+                                <option>Las Venturas</option>
+                                <option>San Fierro</option>
+                            </select><br><br>
+                            Telefone:<br>
+                            <input type="number" name="Telefone" placeholder="(**) ****-****" ><br>
+                            E-mail:<br>
+                            <input type="text" name="email" placeholder="seuemail@hotmail.com">
+                            <!--Buttons-->
+                            <br>
+                            <button name="enviar" type="button">Enviar </button>
+                            <button name="limpar" type="reset" >Limpar</button>
+                        </div>
+                    </div>	
+                                            <div class="col2"><h3></h3></div> 
+                    </form>
+				</div>
+			</div>		
+		</div>		
+    </section>
+  
+
+
+</body>
+ </html>

@@ -1,2 +1,0 @@
-index.html = bugado a margem e o padding,pq está com espaçamento vazio
-enorme

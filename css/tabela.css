@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:white;
+    background-color:gray;
     
   }
 
@@ -9,6 +9,7 @@ body{
         width: 100%;
         margin: 0 auto;
         margin-left: 0 auto;/*distanciamento do bloco da borda esquerda*/ 
+        background-color: gray;
   }
 
   #minibloco1{
@@ -25,18 +26,29 @@ body{
 }
 /*PATCHES*/
 .patches{
-      background-color: aqua;
+      background-color: rgba(0, 255, 255, 0.616);
       width: 100%;
       padding-top: 1px;
       padding-bottom: 0.5px;
       text-align: center;
-      color: white;
+      color:black;
 }
+
 .tabela{
       margin-top: 5%;
 }
-
-
+.tabela th{  
+color: aqua;  
+font-weight: bold;    
+border: 3px solid rgba(0, 255, 255, 0.616);
+background-color: black;
+}
+.tabela td{
+color: white;
+font-weight: bold;
+border: 1px solid rgba(0, 255, 255, 0.616);
+background-color: #565656;
+}
 
 /*FORMAÇÃO NO COMBOIO*/
 .Formacao{
