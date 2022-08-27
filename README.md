@@ -1,2 +1,2 @@
 # insanosWebSite
-Projeto sem fins lucrativos voltado para aprendizado
+Site feito em html e css durante a atividade da professora Simone
